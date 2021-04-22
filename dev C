@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	int y, a, x=10;
+	do{
+	printf("\tDigite 0 para parar\n \tDigite 1 para prosseguir\n\n");
+	scanf("%d", &a);
+	printf("Digite um valor\n");
+	scanf("%d", &y);
+
+	
+	
+		for (x; x!=0;--x){
+		
+		
+		printf("Multi %d x %d = %d\n", y, x, y*x);
+	
+
+	}
+	}while(a!=0);
+		printf("Acabou\n");
+	return 0;
+}
